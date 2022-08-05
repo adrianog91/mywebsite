@@ -8,7 +8,6 @@ import blogSingleImg2 from "../images/blog-details/img-2.jpg";
 import blogSingleImg3 from "../images/blog-details/img-3.jpg";
 
 
-
 const blogs = [
     {
         id: '1',
@@ -16,11 +15,11 @@ const blogs = [
         screens: blogImg1,
         description: 'Consectetur adipiscing elit. Purusout phasellus malesuada lectus.',
         author: 'Marilou Kelleher',
-        authorTitle:'Sineor Consultant',
+        authorTitle: 'Sineor Consultant',
         create_at: '25 Dec, 2020',
-        blogSingleImg:blogSingleImg1, 
-        comment:'35',
-        blClass:'format-standard-image',
+        blogSingleImg: blogSingleImg1,
+        comment: '35',
+        blClass: 'format-standard-image',
     },
     {
         id: '2',
@@ -28,11 +27,11 @@ const blogs = [
         screens: blogImg2,
         description: 'Consectetur adipiscing elit. Purusout phasellus malesuada lectus.',
         author: 'Konal Biry',
-        authorTitle:'Creative Director',
+        authorTitle: 'Creative Director',
         create_at: '13 Dec,2022',
-        blogSingleImg:blogSingleImg2, 
-        comment:'80',
-        blClass:'format-standard-image',
+        blogSingleImg: blogSingleImg2,
+        comment: '80',
+        blClass: 'format-standard-image',
     },
     {
         id: '3',
@@ -40,11 +39,11 @@ const blogs = [
         screens: blogImg3,
         description: 'Consectetur adipiscing elit. Purusout phasellus malesuada lectus.',
         author: 'Aliza Anny',
-        authorTitle:'Art Director',
+        authorTitle: 'Art Director',
         create_at: '22 Dec,2022',
-        blogSingleImg:blogSingleImg3,
-        comment:'95',
-        blClass:'format-video',
+        blogSingleImg: blogSingleImg3,
+        comment: '95',
+        blClass: 'format-video',
     },
     {
         id: '2',
@@ -52,11 +51,11 @@ const blogs = [
         screens: blogImg2,
         description: 'Consectetur adipiscing elit. Purusout phasellus malesuada lectus.',
         author: 'Konal Biry',
-        authorTitle:'Creative Director',
+        authorTitle: 'Creative Director',
         create_at: '13 Dec,2022',
-        blogSingleImg:blogSingleImg2, 
-        comment:'80',
-        blClass:'format-standard-image',
+        blogSingleImg: blogSingleImg2,
+        comment: '80',
+        blClass: 'format-standard-image',
     },
 ];
 export default blogs;
