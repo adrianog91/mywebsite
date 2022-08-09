@@ -2484,13 +2484,13 @@ img {
     font-size: 40px;
   }
 }
-.static-hero .static-hero-right .project .p-text h3 {
+.static-hero .static-hero-right .project .p-text h3 h2{
   font-size: 25px;
   margin-bottom: 0px;
   color: #202020;
 }
 @media (max-width: 575px) {
-  .static-hero .static-hero-right .project .p-text h3 {
+  .static-hero .static-hero-right .project .p-text h3 h2{
     font-size: 20px;
   }
 }

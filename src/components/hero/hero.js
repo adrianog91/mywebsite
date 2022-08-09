@@ -3,7 +3,11 @@ import { Link } from 'react-scroll'
 
 import hero1 from '../../images/slider/1.jpg'
 
-import icon1 from '../../images/icon/photoshop.svg'
+import reactjsIcon from '../../images/icon/reactjs.svg';
+import netIcon from '../../images/icon/net.svg';
+import azureIcon from '../../images/icon/azure.svg';
+import azureDeveloperAssociateIcon from '../../images/icon/azureDeveloperAssociate.svg';
+
 import icon2 from '../../images/icon/illustrator.svg'
 import icon3 from '../../images/icon/diamond.svg'
 
@@ -28,8 +32,7 @@ const Hero = () => {
                                         <h5>Computer Engineer</h5>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <p>Must explain to how all this mistaken idea denouncing pleasure pain
-                                            the system and expound the actua.</p>
+                                        <p>Azure developer - I work with .NET, React & Non-Relational Databases</p>
                                     </div>
                                     <div className="clearfix"></div>
                                     <div className="slide-btn">
@@ -52,16 +55,16 @@ const Hero = () => {
                 <div className="static-hero-img">
                     <div className="static-hero-img-inner">
                         <img src={hero1} alt=""/>
-                        <div className="icon-1 floating-item"><img src={icon1} alt=""/></div>
-                        <div className="icon-2 floating-item"><img src={icon2} alt=""/></div>
-                        <div className="icon-3 floating-item"><img src={icon3} alt=""/></div>
-                        <div className="project floating-item">
+                        <div className="icon-1 floating-item"><img src={reactjsIcon} alt=""/></div>
+                        <div className="icon-2 floating-item"><img src={netIcon} alt=""/></div>
+                        <div className="icon-3 floating-item"><img src={azureIcon} alt=""/></div>
+                        <div className="project">
                             <div className="icon">
-                                <i className="fi flaticon-verified"></i>
+                                <img width={95} height={95} src={azureDeveloperAssociateIcon} alt=""/>
                             </div>
                             <div className="p-text">
-                                <h3><span data-count="1500">1500</span>+</h3>
-                                <p>Complete Project</p>
+                                <h6><span style={{color: '#202020'}} >Azure Developer Associate</span>+</h6>
+                                <p>Microsoft certified</p>
                             </div>
                         </div>
                     </div>
