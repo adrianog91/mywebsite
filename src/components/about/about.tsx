@@ -3,20 +3,20 @@ import shape1 from '../../images/about/shape1.png'
 import shape2 from '../../images/about/shape2.png'
 
 
-const About = (props) => {
-    return(
+const About = () => {
+    return (
         <div className="wpo-about-area section-padding" id='about'>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-5 col-md-12 col-sm-12">
                         <div className="wpo-about-exprience-wrap">
                             <div className="wpo-about-exprience">
-                                <h2>08</h2>
+                                <h2>05</h2>
                                 <span>Years of Experience</span>
                             </div>
                             <div className="client">
                                 <h3><span data-count="100">100</span>%</h3>
-                                <p>Clients Satisfections</p>
+                                <p>Company Satisfections</p>
                             </div>
                         </div>
                     </div>
@@ -24,45 +24,52 @@ const About = (props) => {
                         <div className="wpo-about-content">
                             <div className="wpo-about-title">
                                 <h2>My Advantage</h2>
-                                <p>Must explain to you how all this mistaken idea of denouncing
-                                    pleasure and praising pain was born and I will give you a complete account
-                                    the system and expound the actual and praising pain was born.</p>
+                                <p>I am a computer engineer with a passion for technology and the development of IT
+                                    solutions that can improve and facilitate people's daily and working life. I was
+                                    born as a back-end developer, in recent years I have also started front-end
+                                    development and through this site I would like to bring content that can help
+                                    developers like me to write high-performance, efficient and clean code. Initially
+                                    the contents will cover languages such as:</p>
+                                <p>Azure functions (Event-triggered code)</p>
+                                <p>C# & Javascript languages</p>
+                                <p>.NET (6+) & React (17+) frameworks</p>
+                                <p>MongoDB, CosmosDB and EFCore databases</p>
                             </div>
                             <div className="wpo-about-funfact">
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="98">98</span>%</h3>
-                                        <p>Figma</p>
+                                        <h3><span data-count="95">95</span>%</h3>
+                                        <p>C# & .NET</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="92">92</span>%</h3>
-                                        <p>Sketch</p>
+                                        <h3><span data-count="90">90</span>%</h3>
+                                        <p>React</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="88">88</span>%</h3>
-                                        <p>Photoshop</p>
+                                        <h3><span data-count="80">80</span>%</h3>
+                                        <p>MongoDB</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="72">72</span>%</h3>
-                                        <p>Illustrator</p>
+                                        <h3><span data-count="75">75</span>%</h3>
+                                        <p>Azure</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="43">43</span>%</h3>
-                                        <p>WordPress</p>
+                                        <h3><span data-count="75">75</span>%</h3>
+                                        <p>Parallel programming</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="37">37</span>%</h3>
-                                        <p>ReactJS</p>
+                                        <h3><span data-count="50">50</span>%</h3>
+                                        <p>TDD</p>
                                     </div>
                                 </div>
                             </div>
@@ -73,14 +80,14 @@ const About = (props) => {
             <div className="ab-shape">
                 <svg width="995" height="1495" viewBox="0 0 995 1495" fill="none">
                     <g opacity="0.3" filter="url(#filter0_f_39_4267)">
-                        <circle cx="247.5" cy="747.5" r="247.5" fill="#FFE500" />
+                        <circle cx="247.5" cy="747.5" r="247.5" fill="#FFE500"/>
                     </g>
                     <defs>
                         <filter id="filter0_f_39_4267" x="-500" y="0" width="1495" height="1495"
-                            filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_39_4267" />
+                                filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_39_4267"/>
                         </filter>
                     </defs>
                 </svg>
@@ -88,14 +95,14 @@ const About = (props) => {
             <div className="ab-shape-s2">
                 <svg width="1252" height="1901" viewBox="0 0 1252 1901" fill="none">
                     <g opacity="0.15" filter="url(#filter0_f_39_4265)">
-                        <circle cx="950" cy="950.004" r="450" />
+                        <circle cx="950" cy="950.004" r="450"/>
                     </g>
                     <defs>
                         <filter id="filter0_f_39_4265" x="-0.00012207" y="0.00402832" width="1900" height="1900"
-                            filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_39_4265" />
+                                filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_39_4265"/>
                         </filter>
                     </defs>
                 </svg>

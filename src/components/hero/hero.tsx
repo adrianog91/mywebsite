@@ -1,15 +1,12 @@
 import React from "react";
 import { Link } from 'react-scroll'
 
-import hero1 from '../../images/slider/1.jpg'
+import hero1 from '../../images/slider/1.jpg';
 
 import reactjsIcon from '../../images/icon/reactjs.svg';
 import netIcon from '../../images/icon/net.svg';
-import azureIcon from '../../images/icon/azure.svg';
+import azureIcon from "../../images/icon/azure.svg";
 import azureDeveloperAssociateIcon from '../../images/icon/azureDeveloperAssociate.svg';
-
-import icon2 from '../../images/icon/illustrator.svg'
-import icon3 from '../../images/icon/diamond.svg'
 
 import shape1 from '../../images/slider/line-1.png'
 import shape2 from '../../images/slider/line-2.png'
@@ -64,7 +61,7 @@ const Hero = () => {
                             </div>
                             <div className="p-text">
                                 <h6><span style={{color: '#202020'}} >Azure Developer Associate</span>+</h6>
-                                <p>Microsoft certified</p>
+                                <a href="https://www.credly.com/badges/f023c8e3-725b-4f0a-b86f-c5419a5235c5?source=linked_in_profile" target="_blank">Microsoft certified</a>
                             </div>
                         </div>
                     </div>
