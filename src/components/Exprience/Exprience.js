@@ -34,7 +34,7 @@ const Exprience = (props) => {
                         <div className="wpo-work-item" key={exp}>
                             <ul>
                                 <li className="date">{exprience.date}</li>
-                                <li className="logo"><img src={exprience.logo} alt=""/></li>
+                                <li className="logo"><img src={exprience.logo} alt="" width="100"/></li>
                                 <li className="position">{exprience.position} <span>{exprience.companyName}
                                     <span>{exprience.workFrom}</span></span></li>
                                 <li className="link">
