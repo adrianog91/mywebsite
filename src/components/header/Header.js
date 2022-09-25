@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link} from 'react-scroll'
 import MobileMenu from '../MobileMenu/MobileMenu'
-import Logo from '../../images/logo.png'
+import Logo from '../../images/my-avatar.png'
 import cv from '../../images/cv.jpg'
 
 
@@ -23,7 +23,7 @@ const Header = (props) => {
                             <div className="col-lg-2 col-md-6 col-6">
                                 <div className="navbar-header">
                                     <Link onClick={ClickHandler} className="navbar-brand site-logo" to="/"><img
-                                        src={Logo} alt="" />Elito.</Link>
+                                        src={Logo} alt="" />Adrian.</Link>
                                 </div>
                             </div>
                             <div className="col-lg-8 col-md-1 col-1">
@@ -34,10 +34,12 @@ const Header = (props) => {
                                         <li>
                                             <Link activeClass="active" to="about" spy={true} smooth={true}  duration={500}>About</Link>
                                         </li>
-                                        <li><Link activeClass="active" to="service" spy={true} smooth={true}  duration={500}>Service</Link></li>
-                                        <li>
-                                            <Link activeClass="active" to="portfolio" spy={true} smooth={true}  duration={500} onClick={ClickHandler}>Portfolio</Link>
-                                        </li>
+                                        {/*<li>*/}
+                                        {/*    <Link activeClass="active" to="service" spy={true} smooth={true}  duration={500}>Service</Link>*/}
+                                        {/*</li>*/}
+                                        {/*<li>*/}
+                                        {/*    <Link activeClass="active" to="portfolio" spy={true} smooth={true}  duration={500} onClick={ClickHandler}>Portfolio</Link>*/}
+                                        {/*</li>*/}
                                         <li>
                                             <Link activeClass="active" to="contact" spy={true} smooth={true}  duration={500}>Contact</Link>
                                         </li>

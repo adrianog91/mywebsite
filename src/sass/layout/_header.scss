@@ -112,7 +112,7 @@
         padding: 8px 6px;
         font-size: 13px;
     }
- 
+
 }
 
 @media (max-width: 590px) {
@@ -184,7 +184,7 @@
   }
 
 
-  
+
   .wpo-site-header .navigation {
 	background-color: #fff;
 	margin-bottom: 0;
@@ -196,7 +196,7 @@
 	-ms-border-radius: 0;
 	border-radius: 0;
   }
-  
+
   .sticky-header {
 	  width: 100%;
 	  position: fixed;
@@ -213,13 +213,13 @@
 	  -webkit-box-shadow: 0 -5px 15px #086ad84a;
     box-shadow: 0 -5px 15px #086ad84a;
   }
-  
+
   .sticky-on {
 	  opacity: 1;
 	  top: 0;
 	  visibility: visible;
   }
-  
+
   .wpo-site-header .navigation > .container {
 	position: relative;
   }
@@ -230,14 +230,14 @@
 	  width: 100%;
 	}
   }
-  
-  
+
+
   @media (max-width: 991px) {
 	.wpo-site-header .navigation {
 	  padding: 5px 0;
 	}
   }
-  
+
   .wpo-site-header #navbar {
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -245,13 +245,13 @@
 	-ms-transition: all 0.5s;
 	transition: all 0.5s;
   }
-  
+
   .wpo-site-header #navbar > ul li a:hover,
   .wpo-site-header #navbar > ul li a:focus {
 	text-decoration: none;
 	color: $theme-primary-color;
   }
-  
+
   @media screen and (min-width: 992px) {
 	.wpo-site-header #navbar {
 	  /*** hover effect ***/
@@ -298,7 +298,7 @@
   .wpo-site-header .container-fluid{
 	padding-right: 0;
   }
-  
+
   @media (max-width: 991px) {
 	.wpo-site-header {
 	  /* class for show hide navigation */
@@ -307,7 +307,7 @@
 	  width: 100%;
 	  max-width: 100%;
 	}
-	
+
 	.wpo-site-header .header-right {
 		right: -10px;
 	}
@@ -327,7 +327,7 @@
 		  list-style: none;
 	  }
   }
-  
+
   @media (max-width: 991px) and (max-width: 991px) {
 	.wpo-site-header #navbar {
 	  top: 0;
@@ -335,7 +335,7 @@
 	  opacity: 1;
 	}
   }
-  
+
   @media (max-width: 991px) {
 	.wpo-site-header #navbar > ul {
 	  z-index: 101;
@@ -376,7 +376,7 @@
 	  right: 10px;
 	}
   }
-  
+
   @media (max-width: 767px) {
 	.wpo-site-header .navbar-header .navbar-brand {
 	  font-size: 24px;
@@ -385,7 +385,7 @@
 	  margin: 0;
 	}
   }
-  
+
   @media (max-width: 991px) {
 	.wpo-site-header .navbar-collapse.collapse {
 	  display: none;
@@ -445,7 +445,7 @@
 		  }
 	  }
   }
-  
+
   @media (max-width: 450px) {
 	  .wpo-site-header .header-right > div {
 		  margin-right: 10px;
@@ -454,7 +454,7 @@
 	         right: -30px;
 		}
   }
-  
+
   .wpo-site-header .header-right > div:last-child {
 	margin: 0 0 0 10px;
 	position: relative;
@@ -464,17 +464,17 @@
 	  }
 
   }
-  
+
   .wpo-site-header .header-right .header-search-form-wrapper {
 	position: relative;
   }
-  
-  
-  
+
+
+
   .wpo-site-header .header-right .header-search-form-wrapper .fi:before {
 	font-size: 18px;
   }
-  
+
   .wpo-site-header .header-right .cart-toggle-btn{
 	@media(max-width:450px){
 		display: none;
@@ -487,7 +487,7 @@
 
 	.fi{
 		&:before{
-			font-size: 25px;	
+			font-size: 25px;
 		}
 	}
 
@@ -503,11 +503,11 @@
   .wpo-site-header .header-right .search-toggle-btn{
 	.fi{
 		&:before{
-			font-size: 20px;	
+			font-size: 20px;
 		}
 	}
   }
-  
+
   /*** cart-search-contact ***/
 	.cart-search-contact {
 
@@ -597,9 +597,9 @@
 			}
 		}
 
-		
+
 	}
-  
+
   .wpo-site-header .header-right .header-search-content-toggle {
 	opacity: 1;
 	visibility: visible;
@@ -619,8 +619,8 @@
 		top: -2px;
 		right: -5px;
 		border-radius: 50%;
-		font-weight: 600;	
- 
+		font-weight: 600;
+
 	}
 
 	.mini-cart-content {
@@ -640,7 +640,7 @@
 			width: 290px;
 		}
 
-	
+
 		.mini-cart-close {
 			display: block;
 			width: 40px;
@@ -790,7 +790,7 @@
 		visibility: visible;
 		right: 0;
 	}
-  
+
   @media (max-width: 991px) {
 	.page-wrapper {
 	  -webkit-transition: all 0.3s;
@@ -815,7 +815,7 @@
 	  transition: all 0.3s;
 	}
   }
-  
+
   .header-search-area {
 	  background: #fff;
 	  width: 100%;
@@ -826,16 +826,16 @@
 	  top: 0;
 	  z-index: 999;
   }
-  
+
   .header-search-area h3 {
 	font-size: 45px;
 	margin: 0 0 1em;
   }
-  
+
   .header-search-area form {
 	position: relative;
   }
-  
+
   .header-search-area input {
 	height: 50px;
 	font-size: 18px;
@@ -846,13 +846,13 @@
 	-webkit-box-shadow: none;
 	box-shadow: none;
   }
-  
+
   .header-search-area input:focus {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	border-color: $theme-primary-color;
   }
-  
+
   .header-search-area form button {
 	background: transparent;
 	border: 0;
@@ -862,12 +862,12 @@
 	right: 0;
 	bottom: 10px;
   }
-  
+
   .header-search-area form button:focus {
 	border: none;
 	outline: none;
   }
-  
+
   .header-search-area .close-form {
 	position: absolute;
 	right: 35px;
@@ -876,7 +876,7 @@
 	padding-bottom: 5px;
 	border-bottom: 1px solid;
   }
-  
+
   .header-search-area .close-form button {
 	background: transparent;
 	border: 0;
@@ -888,13 +888,13 @@
 	letter-spacing: 2px;
 	z-index: 99;
   }
-  
+
   .header-search-area .close-form button:focus {
 	border: 0;
 	outline: 0;
   }
-  
-  
+
+
   .wpo-site-header {
 
 	.navigation {
@@ -980,7 +980,7 @@
 					opacity: 0;
 					visibility: hidden;
 				}
-		  
+
 				&.active{
 					color: #002642;
 					font-weight: 700;
@@ -1201,7 +1201,7 @@
 
 
 		}
-		
+
 		.menu-close {
 			display: block;
 			z-index: 99;
@@ -1262,7 +1262,7 @@
 
 	.navbar-header .navbar-brand {
 		img{
-			max-width: 170px;
+			width: 65px;
 		}
 	}
 
@@ -1299,7 +1299,7 @@
 	    }
 	}
 
-	
+
 }
 
 
@@ -1332,7 +1332,7 @@
 	.wpo-site-header #navbar>ul>li>a {
 		padding: 30px 15px;
 	}
-  
+
 	.wpo-site-header {
 		padding: 0 10px;
 	}
@@ -1343,9 +1343,9 @@
 	.wpo-site-header #navbar>ul>li>a {
 		padding: 30px 10px;
 	}
-  
+
   }
-  
+
 @media(max-width: 1200px) {
 	.wpo-site-header #navbar>ul>li>a {
 		padding: 30px 6px;
@@ -1354,7 +1354,7 @@
 
 }
 
-@media(max-width: 991px) { 
+@media(max-width: 991px) {
 	.wpo-site-header #navbar>ul>li>a {
 	  font-size: 15px;
 	  padding: 15px 30px;
@@ -1369,7 +1369,7 @@
 	.wpo-site-header .header-right .close-form {
 		display: none;
 	}
-  
+
 }
 
 // wpo-header-style-1
@@ -1379,7 +1379,7 @@
 		position: absolute;
 		left: 0;
 		top: 0;
-		width: 100%;	
+		width: 100%;
 		z-index: 99;
 		background: transparent;
 		padding: 0;
@@ -1419,26 +1419,26 @@
 				}
 				@media(max-width:767px){
 					padding: 10px 30px 10px 15px;
-					
+
 					&:before{
 						transform: rotate(90deg);
 						top: 33%;
 						right: 14px;
 						font-size: 12px;
-					} 
+					}
 				}
 				@media(max-width:450px){
 					margin-right: 0;
 				}
 				@media(max-width:375px){
 					padding: 10px 30px 10px 15px;
-					
+
 					&:before{
 						transform: rotate(90deg);
 						top: 33%;
 						right: 14px;
 						font-size: 12px;
-					} 
+					}
 				}
 
 				.hide-img{

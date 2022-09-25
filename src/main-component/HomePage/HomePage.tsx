@@ -18,11 +18,11 @@ const HomePage = () => {
             <Navbar hclass={'wpo-header-style-1'} topbarNone={'topbar-none'}/>
             <Hero/>
             <About/>
-            <ServiceSection/>
+            {/*<ServiceSection/>*/}
             <Exprience/>
-            <ProjectSection/>
-            <Testimonial/>
-            <Pricing/>
+            {/*<ProjectSection/>*/}
+            {/*<Testimonial/>*/}
+            {/*<Pricing/>*/}
             <ContactArea/>
             <BlogSection/>
             <Footer/>

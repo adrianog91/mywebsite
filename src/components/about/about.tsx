@@ -14,10 +14,10 @@ const About = () => {
                                 <h2>05</h2>
                                 <span>Years of Experience</span>
                             </div>
-                            <div className="client">
-                                <h3><span data-count="100">100</span>%</h3>
-                                <p>Company Satisfections</p>
-                            </div>
+                            {/*<div className="client">*/}
+                            {/*    <h3><span data-count="100">100</span>%</h3>*/}
+                            {/*    <p>Company Satisfections</p>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                     <div className="col-lg-6 offset-lg-1 col-md-12 col-sm-12">
@@ -33,7 +33,7 @@ const About = () => {
                                 <p>Azure functions (Event-triggered code)</p>
                                 <p>C# & Javascript languages</p>
                                 <p>.NET (6+) & React (17+) frameworks</p>
-                                <p>MongoDB, CosmosDB and EFCore databases</p>
+                                <p>MongoDB, CosmosDB & EFCore databases</p>
                             </div>
                             <div className="wpo-about-funfact">
                                 <div className="grid">

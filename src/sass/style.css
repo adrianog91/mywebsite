@@ -823,6 +823,8 @@ img {
 .wpo-site-header .navbar-brand.site-logo img {
   border-radius: 50%;
   margin-right: 10px;
+  width: 30px;
+  height: 30px;
 }
 @media (min-width: 991px) {
   .wpo-site-header {
