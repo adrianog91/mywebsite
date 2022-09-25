@@ -19,7 +19,7 @@ const Footer = (props) => {
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
                                     <Link className="site-logo" to="/"><img
-                                        src={Logo} alt=""/>Adrian.</Link>
+                                        src={Logo} alt="" width="100"/>Adrian.</Link>
                                 </div>
                                 {/*<p>Welcome and open yourself to your truest love this year with us! With the Release*/}
                                 {/*    Process</p>*/}
@@ -54,8 +54,8 @@ const Footer = (props) => {
                                     <li><Link to="about" spy={true} smooth={true} duration={500}>About us</Link></li>
                                     <li><Link to="contact" spy={true} smooth={true} duration={500}>Contact us</Link>
                                     </li>
-                                    <li><Link to="portfolio" spy={true} smooth={true} duration={500}>Projects</Link>
-                                    </li>
+                                    {/* <li><Link to="portfolio" spy={true} smooth={true} duration={500}>Projects</Link>
+                                    </li> */}
                                     <li><Link to="blog" spy={true} smooth={true} duration={500}>Recent Post</Link></li>
                                 </ul>
                             </div>
@@ -111,7 +111,7 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="separator"></div>
-                        <p className="copyright">Copyright &copy; 2022 Elito. All rights reserved.</p>
+                        <p className="copyright">Copyright &copy; 2022 Adrian. All rights reserved.</p>
                     </div>
                 </div>
             </div>
